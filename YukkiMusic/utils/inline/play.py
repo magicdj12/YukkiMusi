@@ -251,7 +251,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     return buttons
 
 
-def panel_markup_5(_, videoid, chat_id):
+def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
@@ -271,7 +271,7 @@ def panel_markup_5(_, videoid, chat_id):
     return buttons
 
 
-def panel_markup_1(_, videoid, chat_id):
+def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="🔇 بیصدا", callback_data=f"ADMIN Mute|{chat_id}"),
@@ -305,7 +305,7 @@ def panel_markup_1(_, videoid, chat_id):
     return buttons
 
 
-def panel_markup_2(_, videoid, chat_id):
+def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
