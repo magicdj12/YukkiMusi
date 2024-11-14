@@ -25,22 +25,40 @@
  ┈┅┅━♫━┅┅┈
 
 Admin: |
-  <b>c stands for channel play</b>
+  ⛥◄دستورات پخش
+𝄞 پخش
+𝄞 play
 
-  <b>✧ {0}</b> - Pause the playing music.
-  <b>✧ {1}</b> - Resume the paused music.
-  <b>✧ {2}</b> - Mute the playing music.
-  <b>✧ {3}</b> - Unmute the muted music.
-  <b>✧ {4}</b> - Skip the current playing music.
-  <b>✧ {5}</b> - Stop the playing music.
-  <b>✧ {6}</b> - Randomly shuffle the queued playlist/songs.
-  <b>✧ {7}</b> - Forward seek the music.
-  <b>✧ {8}</b> - Backward seek the music to your duration.
-  <b>✧ {9}</b> - Reboot bot for your chat.
-
-  <b>✧ {4}</b> [Number (Example: 3)] - Skip music to a specific number. Example: <b>/skip 3</b> will skip to the third queued music and will ignore 1 and 2 in the queue.
-
-  <b>✧ {10}</b> [Enable/Disable] or [Number between 1-10] - When activated, the bot will loop the current music 1-10 times in voice chat. Default loop value is 10 times.
+◄متوقف کردن پخش  ➤
+𝄞 توقف
+/pause
+◄ادامه دادن  پخش  ➤
+𝄞 ادامه
+/resume
+◄بیصدا کردن پخش ➤
+𝄞 بی صدا
+/mute
+◄صدادار کردن پخش ➤
+𝄞 باصدا
+/unmute
+◄پخش جاری را تکرار کنید از 1 تا 10➤
+𝄞 تکرار (1تا 10)
+/loop
+◄پخش جاری را رد کرده و ترک بعدی را پخش کنید. ➤
+𝄞 بعدی
+/skip
+◄صف را پاک کرده و پخش جاری را پایان دهید. ➤
+𝄞 اتمام
+/stop
+◄به مدت زمان داده شده در پخش بروید.➤
+𝄞  (ثانیه) رد
+/seekback
+◄به مدت زمان داده شده به عقب بروید ➤
+𝄞 عقب (ثانیه)
+/seekback
+◄ربات را برای چت شما ری‌استارت می‌کند ➤
+𝄞 ریستارت
+/restart
 
 
 Active: |
