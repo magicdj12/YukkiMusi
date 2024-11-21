@@ -255,60 +255,6 @@ def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="◀️بعدی",
-                callback_data=f"Pages Back|0|{videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🔙 بازگشت",
-                callback_data=f"MainMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="▶️بعدی",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
-            ),
-        ],
-    ]
-    return buttons
-
-
-def panel_markup_2(_, videoid, chat_id):
-    buttons = [
-        [
-            InlineKeyboardButton(text="🔇 بیصدا", callback_data=f"ADMIN Mute|{chat_id}"),
-            InlineKeyboardButton(
-                text="🔊 صدا دار",
-                callback_data=f"ADMIN Unmute|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🔀 اتفاقی",
-                callback_data=f"ADMIN Shuffle|{chat_id}",
-            ),
-            InlineKeyboardButton(text="🔁 تکرار", callback_data=f"ADMIN Loop|{chat_id}"),
-        ],
-        [
-            InlineKeyboardButton(
-                text="◀️بعدی",
-                callback_data=f"Pages Back|1|{videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🔙 عقب",
-                callback_data=f"MainMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="▶️بعدی",
-                callback_data=f"Pages Forw|1|{videoid}|{chat_id}",
-            ),
-        ],
-    ]
-    return buttons
-
-
-def panel_markup_3(_, videoid, chat_id):
-    buttons = [
-        [
-            InlineKeyboardButton(
                 text="⏮ 10 ثانیه",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
@@ -327,19 +273,32 @@ def panel_markup_3(_, videoid, chat_id):
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
+
+         [
+            InlineKeyboardButton(text="🔇 بیصدا", callback_data=f"ADMIN Mute|{chat_id}"),
+            InlineKeyboardButton(
+                text="🔊 صدا دار",
+                callback_data=f"ADMIN Unmute|{chat_id}",
+            ),
+        ],
         [
             InlineKeyboardButton(
-                text="◀️بعدی",
-                callback_data=f"Pages Back|2|{videoid}|{chat_id}",
+                text="🔀 اتفاقی",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
+            InlineKeyboardButton(text="🔁 تکرار", callback_data=f"ADMIN Loop|{chat_id}"),
+        ],
+
+        [
+            
             InlineKeyboardButton(
-                text="🔙 عقب",
+                text="🔙 بازگشت",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(
-                text="▶️بعدی",
-                callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
-            ),
+            
         ],
     ]
     return buttons
+
+
+
