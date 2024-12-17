@@ -21,7 +21,7 @@ uvloop
 flask
 gunicorn
 youtube-search-python
-yt-dlp==2024.12.6
+yt-dlp==2024.12.13
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 git+https://github.com/Vivekkumar-IN/yt-dlp-youtube-oauth2
 git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto
