@@ -1,12 +1,12 @@
 
 PING_COMMAND : ["ping", "alive", "aalive",'پینگ']
 PRIVACY_COMMAND : ["privacy"]
-START_COMMAND : ["start",'$شروع^']
+START_COMMAND : ["start",'شروع']
 HELP_COMMAND : ["help",'کمک',"راهنما']
 SETTINGS_COMMAND : ["settings", "setting",'تنظیمات',"پنل']
 RELOAD_COMMAND : ["admincache", "reload",'پیکربندی']
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats",'$آما^']
+STATS_COMMAND : ["stats",'آما']
 LANGUAGE_COMMAND : ["lang", "language", "langs",'زبان']
 
 # Play Commands
@@ -29,7 +29,7 @@ LYRICS_COMMAND : ["lyrics"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth",'$تایید خودکار^']
+AUTH_COMMAND : ["auth",'تایید خودکار']
 UNAUTH_COMMAND : ["unauth",'حذف تایید خودکا']
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause",'توقف']
@@ -77,7 +77,7 @@ USAGE_COMMAND : ["usage"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update","gitpull", "up",'اپدیت','آپدیت']
-RESTART_COMMAND : ["restart",'$ریستارت^']
+RESTART_COMMAND : ["restart",'ریستارت']
 AUTOEND_COMMAND : ["autoend",'ختم خودکار']
 
 #Private Bot Mode
@@ -86,9 +86,9 @@ UNAUTHORIZE_COMMAND : ["unauthorize"]
 AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block",'$بلاک^']
-UNBLOCK_COMMAND : ["unblock",'$حذف بلاک^']
-BLOCKED_COMMAND : ["blockedusers",'$لیست بلاک^']
+BLOCK_COMMAND : ["block",'بلاک']
+UNBLOCK_COMMAND : ["unblock",'حذف بلاک']
+BLOCKED_COMMAND : ["blockedusers",'لیست بلاک']
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["speedtest"]
