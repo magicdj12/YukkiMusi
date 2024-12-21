@@ -2,7 +2,7 @@
 PING_COMMAND : ["ping", "alive", "aalive",'پینگ']
 PRIVACY_COMMAND : ["privacy"]
 START_COMMAND : ["start",'شروع']
-HELP_COMMAND : ["help",'کمک',"راهنما']
+HELP_COMMAND : ["help","کمک',"راهنما']
 SETTINGS_COMMAND : ["settings", "setting","تنظیمات',"پنل']
 RELOAD_COMMAND : ["admincache", "reload",'پیکربندی']
 GSTATS_COMMAND : ["gstats"]
