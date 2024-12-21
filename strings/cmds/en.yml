@@ -77,7 +77,7 @@ USAGE_COMMAND : ["usage"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update","gitpull", "up",'اپدیت','آپدیت']
-RESTART_COMMAND : ["restart",'شروع دوباره']
+RESTART_COMMAND : ["restart",'ریستارت']
 AUTOEND_COMMAND : ["autoend",'ختم خودکار']
 
 #Private Bot Mode
