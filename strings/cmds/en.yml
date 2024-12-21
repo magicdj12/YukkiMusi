@@ -2,8 +2,8 @@
 PING_COMMAND : ["ping", "alive", "aalive",'پینگ']
 PRIVACY_COMMAND : ["privacy"]
 START_COMMAND : ["start",'شروع']
-HELP_COMMAND : ["help","کمک',"راهنما']
-SETTINGS_COMMAND : ["settings", "setting","تنظیمات',"پنل']
+HELP_COMMAND : ["help",'کمک','راهنما']
+SETTINGS_COMMAND : ["settings", "setting",'تنظیمات','پنل']
 RELOAD_COMMAND : ["admincache", "reload",'پیکربندی']
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["stats",'آما']
@@ -42,7 +42,7 @@ SHUFFLE_COMMAND : ["shuffle", "cshuffle",'اتفاقی']
 LOOP_COMMAND : ["loop", "cloop",'تکرار']
 SEEK_COMMAND : ["seek", "cseek",'رد']
 SEEK_BACK_COMMAND : ["seekback", "cseekback",'عقب']
-REBOOT_COMMAND : ["reboot",'ریستارت']
+REBOOT_COMMAND : ["reboot",'شروع دوباره']
 
 # Sudo Users Commaands
 
@@ -77,7 +77,7 @@ USAGE_COMMAND : ["usage"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update","gitpull", "up",'اپدیت','آپدیت']
-RESTART_COMMAND : ["restart",'ریستارت']
+RESTART_COMMAND : ["restart",'شروع دوباره']
 AUTOEND_COMMAND : ["autoend",'ختم خودکار']
 
 #Private Bot Mode
