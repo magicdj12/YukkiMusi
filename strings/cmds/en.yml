@@ -42,7 +42,7 @@ SHUFFLE_COMMAND : ["shuffle", "cshuffle",'اتفاقی']
 LOOP_COMMAND : ["loop", "cloop",'تکرار']
 SEEK_COMMAND : ["seek", "cseek",'رد']
 SEEK_BACK_COMMAND : ["seekback", "cseekback",'عقب']
-REBOOT_COMMAND : ["reboot",'شروع دوباره']
+REBOOT_COMMAND : ["reboot",'پیکربندی']
 
 # Sudo Users Commaands
 
