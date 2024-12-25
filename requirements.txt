@@ -1,5 +1,5 @@
-asyncio
-aiohttp
+asyncio==3.4.3
+aiohttp==3.8.1
 beautifulsoup4
 dnspython
 ffmpeg-python
